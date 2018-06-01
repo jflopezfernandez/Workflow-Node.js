@@ -21,11 +21,15 @@
   },
   "homepage": "https://github.com/lopezfjose/Workflow-Node.js#readme",
   "dependencies": {
+    "grunt": "^1.0.2",
     "mochawesome": "^3.0.2",
     "net": "^1.0.2"
   },
   "devDependencies": {
     "eslint": "^4.19.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "jshint": "^2.9.5",
     "mocha": "^5.2.0",
     "nodemon": "^1.17.5"
   }

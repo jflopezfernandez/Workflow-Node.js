@@ -1,0 +1,24 @@
+{
+  "browser": true,
+  "browserify": true,
+  "devel": true,
+  "esversion": 6,
+  "evil": false,
+  "jasmine": true,
+  "jquery": true,
+  "mocha": true,
+  "module": true,
+  "moz": true,
+  "nocomma": false,
+  "node": true,
+  "qunit": true,
+  "strict": true,
+  "undef": true,
+  "unused": true,
+  "varstmt": true,
+  "worker": true,
+  "wsh": true,
+  "globals": {
+    "process": true
+  }
+}

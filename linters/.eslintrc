@@ -1,6 +1,6 @@
 {
 	"env": {
-		"browser": false,
+		"browser": true,
 		"node": true
 	},
 	"extends": "eslint:recommended",
@@ -13,7 +13,7 @@
 		}
 	},
 	"rules": {
-		"comma-dangle": [ "error", "always" ],
+		"comma-dangle": [ "error", "never" ],
 		"linebreak-style": [ "warn", "windows" ],
 		"no-console": "off",
 		"semi": [ "error", "always" ],
