@@ -1,0 +1,32 @@
+{
+  "name": "workflow",
+  "version": "1.0.0",
+  "description": "Establishing a formal workflow",
+  "main": "app.js",
+  "scripts": {
+    "lint": "eslint -c linters\\.eslintrc *.js --fix --quiet",
+    "test": "mocha test\\mocha.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lopezfjose/Workflow-Node.js.git"
+  },
+  "keywords": [
+    "workflow"
+  ],
+  "author": "Jose Fernando Lopez Fernandez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lopezfjose/Workflow-Node.js/issues"
+  },
+  "homepage": "https://github.com/lopezfjose/Workflow-Node.js#readme",
+  "dependencies": {
+    "mochawesome": "^3.0.2",
+    "net": "^1.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.17.5"
+  }
+}
